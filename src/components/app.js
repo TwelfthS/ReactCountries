@@ -7,11 +7,10 @@ function App() {
 
     return (
         <>
-        <h1>Test</h1>
-        {/* <Routes>
+        <Routes>
           <Route path='/' element={<Main />} />
           <Route path='/info/:countryname' element={<Info />} />
-        </Routes> */}
+        </Routes>
         </>
     )
 }

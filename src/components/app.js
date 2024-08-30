@@ -6,10 +6,13 @@ import Main from './main'
 function App() {
 
     return (
-        <Routes>
-          <Route path='/reactcountries' element={<Main />} />
-          <Route path='/reactcountries/info/:countryname' element={<Info />} />
-        </Routes>
+        <>
+        <h1>Test</h1>
+        {/* <Routes>
+          <Route path='/' element={<Main />} />
+          <Route path='/info/:countryname' element={<Info />} />
+        </Routes> */}
+        </>
     )
 }
 

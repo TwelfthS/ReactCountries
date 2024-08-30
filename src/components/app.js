@@ -7,8 +7,8 @@ function App() {
 
     return (
         <Routes>
-          <Route path='/' element={<Main />} />
-          <Route path='/info/:countryname' element={<Info />} />
+          <Route path='/reactcountries' element={<Main />} />
+          <Route path='/reactcountries/info/:countryname' element={<Info />} />
         </Routes>
     )
 }
